@@ -9,57 +9,70 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1024px;
   margin: auto;
   text-align: center;
 }
 
 #hero {
-  max-width: 592px;
-  margin: 0 auto 72px;
+  max-width: 540px;
+  margin: 64px auto;
 
   img {
-    margin-bottom: 72px;
+    margin-bottom: 32px;
   }
 }
 
 h1 {
-  font-family: 'Inter', system-ui, sans-serif;
-  font-weight: 400;
-  font-size: 49px;
-  line-height: 56px;
-  margin-bottom: 32px;
+  font-family: 'Dosis', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #3f3d56;
+
+  strong {
+    color: #ee24ff;
+  }
 }
 
 p {
-  color: #7d7987;
-  font-size: 14px;
-  line-height: 28px;
-  margin-bottom: 32px;
-}
+  color: #828282;
+  font-size: 15px;
+  line-height: 22px;
 
-.highlighted {
-  color: #e90;
+  span {
+    font-weight: 700;
+  }
+
+  strong {
+    color: #3f3d56;
+  }
 }
 
 footer {
-  max-width: 568px;
+  max-width: 391px;
   margin: auto;
   border-top: 1px solid #eceff2;
-  font-size: 14px;
-  padding-top: 8px;
+  font-size: 15px;
+  padding-top: 16px;
 
   a {
-    line-height: 28px;
+    line-height: 147.682%;
+    color: #3f3d56;
+    font-weight: 700;
+    text-decoration: none;
   }
 
   a + a {
-    margin-left: 28px;
+    margin-left: 42px;
   }
 }
 
-#balls {
+#wave {
   position: fixed;
   bottom: 0;
   right: 0;
+  left: 0;
+  max-width: 1024px;
+  margin: auto;
 }
